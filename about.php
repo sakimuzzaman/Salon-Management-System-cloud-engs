@@ -1,9 +1,4 @@
-<!--A Design by W3layouts
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
+
 <!DOCTYPE HTML>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -140,7 +135,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	     
 			<center><h1><b><font color="black"><i><pre></pre></b></center></h1></i></font><br><i><font size="3" color="brown">
 <div class="copy_right">
-				<p>© All rights Reseverd | Design by  <a href="http://w3layouts.com"> LIYA MATHEW </a></p>
+				<p>© All rights Reseverd | Design by  <a href="http://w3layouts.com"> SAKIMUZZAMAN & RAFID AL AHSAN </a></p>
 		 </div>
 </body>
 </html>
