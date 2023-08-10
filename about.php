@@ -1,4 +1,3 @@
-
 <!DOCTYPE HTML>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -64,8 +63,8 @@
       			<div class="company_address">
 				     	<h2>Company Information :</h2>
 						    	<p>Reflection Salon & Spa,</p>
-						   		<p>New City</p>
-						   		<p>USA</p>
+						   		<p>Dhaka</p>
+						   		<p>Bangladesh</p>
 				   		<p>Phone:(00) 222 666 444</p>
 				   		<p>Fax: (000) 123 45 6 78</p>
 				 	 	<p>Email: <span>reflection@mycompany.com</span></p>
@@ -135,9 +134,10 @@
 	     
 			<center><h1><b><font color="black"><i><pre></pre></b></center></h1></i></font><br><i><font size="3" color="brown">
 <div class="copy_right">
-				<p>© All rights Reseverd | Design by  <a href="http://w3layouts.com"> SAKIMUZZAMAN & RAFID AL AHSAN </a></p>
+				<p>© All rights Reseverd | Design by  <a href="http://w3layouts.com"> LIYA MATHEW </a></p>
 		 </div>
 </body>
 </html>
+
 
 

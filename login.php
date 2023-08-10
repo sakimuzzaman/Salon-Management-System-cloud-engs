@@ -1,5 +1,4 @@
-﻿
-<!DOCTYPE HTML>
+﻿<!DOCTYPE HTML>
 <head>
 <title>Free Reflection Salon & span Website Template | Home :: w3layouts</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -105,32 +104,8 @@ if(isset($_POST['submit']))
 		echo "<script>alert('Username/Password Incorrect')</script>"; 
 	}	
 ?>
-				  <div class="clear"></div>
-				  </div>
-                  <div class="rsidebar span_1_of_3" style="margin-left:700px; margin-top:-250px; ">
-				      <h2>Latest News? </h2>
-					 <div class="popular-post">
-					<div class="post-grid">
-						<img src="images/46.jpg" title="post1" alt="">
-						<p>How to adapt your make-up if you wear glasses - tips and tricks to enhance your best features</p>
-							<div class="clear"> </div>
-					  </div>
-					    <div class="post-grid">
-							<img src="images/7.jpg" title="post1" alt="">
-							  <p>Boots discount code deals: Get cheap Pampers nappies, a third off Olay Eye cream and half price vitamins</p>
-                              <div class="clear"> </div>
-						</div>
-						<div class="post-grid">
-							<img src="images/8.jpg" title="post1" alt="">
-							  <p>This is how much you will spend on clothes in your lifetime - and it is a whole lot more than you'd think</p>
-								<div class="clear"> </div>
-						</div>
-								<div class="clear"> </div>
-						</div>
-					
-				</div>
-		 </div>
-	   <div class="clear"></div>
+				 
+		
        
      </div>
     </div>
@@ -157,8 +132,8 @@ if(isset($_POST['submit']))
 						  	  <li>New City,</li>
 						  	   <li>USA.</li>
 						  	 <li>www.reflection@gmail.com</li>
-						  	 <li><span>Telephone :</span>01644444444</li>
-						  	 <li><span>Fax :</span> 01644444444</li>
+						  	 <li><span>Telephone :</span> +06821458963</li>
+						  	 <li><span>Fax :</span> +01478523690</li>
 						  </ul>
 				   </div>				  
 			     </div>
@@ -189,7 +164,7 @@ if(isset($_POST['submit']))
     </div>
   </div>
 <div class="copy_right">
-				<p>Company Name © All rights Reseverd | Design by  <a href="http://w3layouts.com"> SAKIMUZZAMAN & RAFID AL AHSAN</a></p>
+				<p>Company Name © All rights Reseverd | Design by  <a href="http://w3layouts.com"> LIYA MATHEW</a></p>
 		 </div>
 </body>
 </html>
