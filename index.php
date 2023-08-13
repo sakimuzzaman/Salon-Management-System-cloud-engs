@@ -1,5 +1,4 @@
-﻿
-<!DOCTYPE HTML>
+﻿<!DOCTYPE HTML>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -53,12 +52,9 @@
          		<div class="slider_left">
 				  <div class="wmuSlider example2">
 					<div class="wmuSliderWrapper">
-					<article> <img src="images/5.jpg" alt="" height="350px" /> </article>
-					<article> <img src="images/61.jpg" alt="" height="350px" /> </article>
-					<article> <img src="images/4.jpg" alt="" height="350px" />  </article>
-					<article> <img src="images/54.jpg" alt="" height="350px" />  </article>
-					<article> <img src="images/banner1.jpg" alt="" height="350px" />  </article>
-					<article> <img src="images/52.jpg" alt="" height="350px" />  </article>
+					<article> <img src="images/1-01.jpg" alt=""  /> </article>
+					<article> <img src="images/2-01.jpg" alt=""  /> </article>
+					<article> <img src="images/3-01.jpg" alt=""  />  </article>
 					</div>	
 					<script src="js/jquery.wmuSlider.js"></script> 
 					<script type="text/javascript" src="js/modernizr.custom.min.js"></script> 
@@ -98,20 +94,20 @@
 				<h2>Latest Products</h2>
 				<div class="section group">
 				<div class="products_1_of_3">
-					  <img src="images/62.jpg" alt="" />
-					  <h3>L'Oreal Paris Infallible Lipstick</h3>
+					  <img src="images/04-01.jpg" alt="" />
+					  <h3>Gatsby Paris Infallible Hairdryer</h3>
 					  <p>The L'Oreal Paris Infallible Lipstick 741 Bold Bordeaux nourishes your lips and makes them soft and supple. It comes with a rich natural finish that offers a glamorous look. A L'Oreal Paris Kajal Marique Bold comes free with this gloss. Benefits: . Non-Fading . Makes your lips feel soft and look luscious . Easy to use</p>
 		
 				</div>
 				<div class="products_1_of_3">
-					   <img src="images/63.jpg" alt="" />
-					  <h3>Lakme Rose Face Powder, Soft Pink, 40g</h3>
+					   <img src="images/05-01.jpg" alt="" />
+					  <h3>Men's Masculin Face Powder, Hydrating, 40g</h3>
 					  <p>Bought to you from the house of Lakme Classics, The Lakme Rose Powder is a classic must-have. Blush your cheeks with this Lakme Rose Powder which has a light rosy fragrance & sunscreen to protect your soft, peachy skin. The Lakme Rose Powder comes in two warm pink shades which you can pick according to your skin type and occasion.</p>
 				
 				</div>
 				<div class="products_1_of_3">
-					   <img src="images/64.jpg" alt="" />
-					  <h3>Adbeni-Makeup-Kit</h3>
+					   <img src="images/06-01.jpg" alt="" />
+					  <h3>Face Care Kit</h3>
 					  <p>Good Choice India Provides You Combo Makeup Sets "1 Foundation 1 Apricot Scrub 1 Kajal 5in1 Makeup Brush 1 Compact Powder 1 Eye Lipliner", this Is a Special Gift for Woman & Girls Case size: Combo Makeup Set (convenient to carry outdoor)Combo Makeup Sets by copy is the All in one set that has all you need for a professional makeup each individual makeup is manufactured with high quality materials and is offered at a very affordable price why pay more at edpartment store when you can have them all at one low price. Enjoy it</p>
 
 				</div>
@@ -181,8 +177,7 @@
     </div>
   </div>
 <div class="copy_right">
-				<p>© All rights Reseverd | Design by  <a href="http://w3layouts.com"> SAKIMUZZAMAN & RAFID AL AHSAN </a></p>
+				<p>© All rights Reseverd | Design by  <a href="http://w3layouts.com"> LIYA MATHEW </a></p>
 		 </div>
 </body>
 </html>
-
