@@ -1,183 +1,184 @@
-﻿<!DOCTYPE HTML>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
-<script src="js/jquery.min.js"></script> 
-</head>
-<body>
-	<div class="header">
-		<div class="header_top">
-			<div class="wrap">
-			 <div class="logo">
-						<a href="index.php"><img src="images/47.png" alt="" /></a>
-					</div>
-			    <div class="call">
-			    	<p><img src="images/45.png" alt="" />Call US: 111-234-56789</p>
-			    </div>
-			  			 
-			<div class="clear"></div>
-  		</div>
-  	  </div>
-	<div class="header_bottom">
-		<div class="wrap">
-	     	<div class="menu">
-	     		<ul>
-			    	<li class="active"><a href="index.php">Home</a></li>
-			    	<li><a href="login.php">Login</a></li>
-			    	<li><a href="Customer_Add.php">Register</a></li>	
-					<li><a href="services.php">Services</a></li>					
-			    	<li><a href="about.php">About Us</a></li>
-			    	
-			    	
-			    	<div class="clear"></div>
-     			</ul>
-	     	</div>
-	     	<div class="social-icons">
-	     		<ul>
-	     			<!----------------login------>
-	     		</ul>
-	     	</div>
-  	<div class="clear"></div>
-	      </div>	     
-	  </div>	
-	   <div class="strip"> </div>
-    </div> 
-	     	
-	 
-    </div>  
-       <div class="slider">
-       	 <div class="wrap">
-       	   <div class="slider_top">         
-         		<div class="slider_left">
-				  <div class="wmuSlider example2">
-					<div class="wmuSliderWrapper">
-					<article> <img src="images/1-01.jpg" alt=""  /> </article>
-					<article> <img src="images/2-01.jpg" alt=""  /> </article>
-					<article> <img src="images/3-01.jpg" alt=""  />  </article>
-					</div>	
-					<script src="js/jquery.wmuSlider.js"></script> 
-					<script type="text/javascript" src="js/modernizr.custom.min.js"></script> 
-					<script> 
-					        $('.example2').wmuSlider({
-					            touch: true,
-					            animation: 'slide'
-					        });   
-					        
-				    </script> 			
-				 </div>
-				</div>				
-				   <div class="slider_right">
-				      <img src="images/9.jpg" alt="" height="350px" />
-				         <div class="sliderright-text">
-				       	  <h3><span>New Beauty</span><br />Tips</h3>
-				       </div>
-				    </div>
-				<div class="clear"></div>			 
-		   </div>
-			 <div class="slider_bottom">
-			   <div class="section group">
-				
-				
-				
-		    </div>
-		  </div>
-		</div> 
-	 </div>
- <div class="main">
-    <div class="content">
-    	 <div class="wrap">
-    	 	<div class="image group">
-				
-    	     	      
-			<div class="spa_products">
-				<h2>Latest Products</h2>
-				<div class="section group">
-				<div class="products_1_of_3">
-					  <img src="images/04-01.jpg" alt="" />
-					  <h3>Gatsby Paris Infallible Hairdryer</h3>
-					  <p>The L'Oreal Paris Infallible Lipstick 741 Bold Bordeaux nourishes your lips and makes them soft and supple. It comes with a rich natural finish that offers a glamorous look. A L'Oreal Paris Kajal Marique Bold comes free with this gloss. Benefits: . Non-Fading . Makes your lips feel soft and look luscious . Easy to use</p>
+<?php
+session_start();
+error_reporting(0);
+include('includes/dbconnection.php');
+ 
+     ?>
+<!doctype html>
+<html lang="en">
+  <head>
+   
+    <title>Beauty Parlour Management System | Home Page</title>
+
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="assets/css/style-starter.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:400,700,700i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  </head>
+  <body id="home">
+
+<?php include_once('includes/header.php');?>
+
+<script src="assets/js/jquery-3.3.1.min.js"></script> <!-- Common jquery plugin -->
+<!--bootstrap working-->
+<script src="assets/js/bootstrap.min.js"></script>
+<!-- //bootstrap working-->
+<!-- disable body scroll which navbar is in active -->
+<script>
+$(function () {
+  $('.navbar-toggler').click(function () {
+    $('body').toggleClass('noscroll');
+  })
+});
+</script>
+<!-- disable body scroll which navbar is in active -->
+
+<div class="w3l-hero-headers-9">
+  <div class="css-slider">
+    <input id="slide-1" type="radio" name="slides" checked>
+    <section class="slide slide-one">
+      <div class="container">
+        <div class="banner-text">
+          <h4>Creative Styling</h4>
+          <h3>alpha salon<br>
+            fashion for men</h3>
+
+            <a href="book-appointment.php" class="btn logo-button top-margin">Get An Appointment</a>
+        </div>
+      </div>
+      
+    </section>
+    <input id="slide-2" type="radio" name="slides">
+    <section class="slide slide-two">
+      <div class="container">
+        <div class="banner-text">
+          <h4>Creative Styling</h4>
+          <h3>alpha salon<br>
+            fashion for men</h3>
+          <a href="book-appointment.php" class="btn logo-button top-margin">Get An Appointment</a>
+        </div>
+      </div>
+      <!-- <nav>
+        <label for="slide-2" class="prev">&#10094;</label>
+        <label for="slide-1" class="next">&#10095;</label>
+      </nav> -->
+    </section>
+    <header>
+      <label for="slide-1" id="slide-1"></label>
+      <label for="slide-2" id="slide-2"></label>
+    </header>
+  </div>
+</div> 
+
+
+
+<section class="w3l-call-to-action_9">
+    <div class="call-w3 ">
+        <div class="container">
+            <div class="grids">
+                    <div class="grids-content row">
+
+                        <div class="column col-lg-4 col-md-6 color-2 ">
+                            <div>
+                            <h4 class=" ">Our Salon is Most Popular</h4>
+                            <p class="para ">Eline Hair and Beauty Salon Offers - Beauty Services</p>
+                            <a href="about.php" class="action-button btn mt-md-4 mt-3">Read more</a>
+                        </div>
+                    </div>
+                        <div class="column col-lg-4 col-md-6 col-sm-6 back-image  ">
+                            <img src="assets/images/5.jpg" alt="product" class="img-responsive ">
+                        </div>
+                        <div class="column col-lg-4 col-md-6 col-sm-6 back-image2 ">
+                            <img src="assets/images/6.jpg" alt="product" class="img-responsive ">
+                          </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="w3l-teams-15">
+	<div class="team-single-main ">
+		<div class="container">
 		
+				<div class="column2 image-text">
+					<h3 class="team-head ">Come experience the secrets of relaxation</h3>
+					<p class="para  text ">
+						Best Hair expert at your home and provides beauty salon at home. Home Salon provide well trained hair professionals for hair and gromming services at home including Facial, Clean Up, Bleach, Waxing,Pedicure, Manicure, etc.</p>
+						<a href="book-appointment.php" class="btn logo-button top-margin mt-4">Get An Appointment</a>
 				</div>
-				<div class="products_1_of_3">
-					   <img src="images/05-01.jpg" alt="" />
-					  <h3>Men's Masculin Face Powder, Hydrating, 40g</h3>
-					  <p>Bought to you from the house of Lakme Classics, The Lakme Rose Powder is a classic must-have. Blush your cheeks with this Lakme Rose Powder which has a light rosy fragrance & sunscreen to protect your soft, peachy skin. The Lakme Rose Powder comes in two warm pink shades which you can pick according to your skin type and occasion.</p>
-				
-				</div>
-				<div class="products_1_of_3">
-					   <img src="images/06-01.jpg" alt="" />
-					  <h3>Face Care Kit</h3>
-					  <p>Good Choice India Provides You Combo Makeup Sets "1 Foundation 1 Apricot Scrub 1 Kajal 5in1 Makeup Brush 1 Compact Powder 1 Eye Lipliner", this Is a Special Gift for Woman & Girls Case size: Combo Makeup Set (convenient to carry outdoor)Combo Makeup Sets by copy is the All in one set that has all you need for a professional makeup each individual makeup is manufactured with high quality materials and is offered at a very affordable price why pay more at edpartment store when you can have them all at one low price. Enjoy it</p>
-
-				</div>
-			   </div>
-		  </div>
-       </div>
-    </div>
- </div>
+			</div>
+		</div>
+	</div>
+</section>
 
 
-		 </div>
-	   <div class="clear"></div>
-     </div>
-    </div>
-  </div>
-  <div class="footer-strip"> </div>
- <div class="footer">
-   	  <div class="wrap">
-   	    <div class="footer_grides">
-   	    	<div class="footer_grid1">
-					<h3>Information</h3>
-								<ul>
-						            <li><a href="#">About Us</a></li>
-						     		<li><a href="#">Privacy Policy</a></li>
-						     		<li><a href="#">Newsletter</a></li>
-						     		<li><a href="#">Site Map</a></li>						     		
-						   	   </ul>	
-						
-					  	</div>
-				<div class="footer_grid2">
-					<h3>Get In Touch</h3>
-							<div class="address">
-							<ul>
-						  	 <li>Reflection Salon & Spa,</li>
-						  	  <li>New City,</li>
-						  	   <li>USA.</li>
-						  	 <li>www.reflection@gmail.com</li>
-						  	 <li><span>Telephone :</span> +06821458963</li>
-						  	 <li><span>Fax :</span> +01478523690</li>
-						  </ul>
-				   </div>				  
-			     </div>
-				<div class="footer_grid3">
-					<h3>Our Company</h3>
-						<div class="f_menu">
-							   <ul>
-						            <li><a href="#">About your Company</a></li>
-						     		<li><a href="#">Terms &amp; conditions</a></li>
-						     		<li><a href="#">News</a></li>
-						     		<li><a href="#">Team of professionals</a></li>	
-						     		<li><a href="#">Testimonials</a></li>					     		
-						   	   </ul>
-						</div>
-				   </div>				
-		  <div class="footer_grid4">
-			<h3>Follow US</h3>
-				<div class="img_list">
-				    <ul>
-					     <li><img src="images/28.png" alt=""><a href="#">Join Us on Facebook</a></li>
-					     <li><img src="images/twitter.png" alt=""><a href="#">Follow Us on Twitter</a></li>
-					     <li><img src="images/39.png" alt=""><a href="#">Share Us on Twitter</a></li>
-				    </ul>
-				</div>
-		 </div>
-	   <div class="clear"></div>
-     </div>
-    </div>
-  </div>
-<div class="copy_right">
-				<p>© All rights Reseverd | Design by  <a href="http://w3layouts.com"> LIYA MATHEW </a></p>
-		 </div>
+
+
+<section class="w3l-specification-6">
+    <div class="specification-layout ">
+        <div class="container">
+            <div class=" row">
+                <div class="col-lg-6 back-image">
+                    <img src="assets/images/b1.jpg" alt="product" class="img-responsive ">
+                </div>
+                <div class="col-lg-6 about-right-faq align-self">
+                    <h3 class="title-big"><a href="about.html">Clean and Recommended Hair Salon</a></h3>
+                    <p class="mt-3 para"> Their array of hair salon services include haircuts, hair spas, colouring, texturing, styling, waxing, pedicures, manicures, threading, body spa, natural facials and more.</p>
+                        <div class="hair-cut">
+                            <div >
+                    <ul class="w3l-right-book">
+                        <li><span class="fa fa-check" aria-hidden="true"></span><a href="about.html">Hair cut with Blow dry</a></li>
+                        <li><span class="fa fa-check" aria-hidden="true"></span><a href="about.html">Color & highlights</a></li>
+                        <li><span class="fa fa-check" aria-hidden="true"></span><a href="about.html">Shampoo & Set</a></li>
+                        <li><span class="fa fa-check" aria-hidden="true"></span><a href="about.html">Blow Dry & Curl</a></li>
+                        <li><span class="fa fa-check" aria-hidden="true"></span><a href="about.html">Advance Hair Color</a></li>
+                    </ul>
+                </div>
+                    <div  class="image-right">
+                        <ul class="w3l-right-book">
+                            <li><span class="fa fa-check" aria-hidden="true"></span><a href="about.html">Back Massage</a></li>
+                            <li><span class="fa fa-check" aria-hidden="true"></span><a href="about.html">Hair Treatment</a></li>
+                            <li><span class="fa fa-check" aria-hidden="true"></span><a href="about.html">Face Massage</a></li>
+                            <li><span class="fa fa-check" aria-hidden="true"></span><a href="about.html">Skin Care</a></li>
+                            <li><span class="fa fa-check" aria-hidden="true"></span><a href="about.html">Body Therapies</a></li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+</section>
+
+
+
+<?php include_once('includes/footer.php');?>
+<!-- move top -->
+<button onclick="topFunction()" id="movetop" title="Go to top">
+	<span class="fa fa-long-arrow-up"></span>
+</button>
+<script>
+	// When the user scrolls down 20px from the top of the document, show the button
+	window.onscroll = function () {
+		scrollFunction()
+	};
+
+	function scrollFunction() {
+		if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			document.getElementById("movetop").style.display = "block";
+		} else {
+			document.getElementById("movetop").style.display = "none";
+		}
+	}
+
+	// When the user clicks on the button, scroll to the top of the document
+	function topFunction() {
+		document.body.scrollTop = 0;
+		document.documentElement.scrollTop = 0;
+	}
+</script>
+<!-- /move top -->
 </body>
+
 </html>
