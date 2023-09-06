@@ -6,7 +6,7 @@ Welcome to the salon management system. This is a web based application is built
 
 - [Introduction](#introduction)
 - [Features](#features)
-- [Installation](#installation)-
+- [Installation](#installation)
 
 ## Introduction
 This is a web based application where customer are able to request for an appointment and admin are able to see and approved their requests.
@@ -24,4 +24,4 @@ This is a web based application where customer are able to request for an appoin
 - Clone the repository inside xampp/htdocs folder
 - Go to localhost/phpmyadmin and create a database named bpmsdb
 - Export the bpmsdb.sql 
-- NOw, go to your browser and type localhost/Salon-Management-System-cloud-engs
+- Now, go to your browser and type localhost/Salon-Management-System-cloud-engs
